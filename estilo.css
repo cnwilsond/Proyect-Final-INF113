@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),url(imagenes/logo-icon/Img1.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 78vh;
+    display: flex;
+    margin: 60px 0 0 0;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navMenu ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navMenu ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #000000;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navMenu ul li a:hover{
+    color: #BD1616;
+}
+
+.header-cont{
+    text-align: center;
+}
+
+.header-cont h1{
+    font-size: 70px;
+    line-height: 80px;
+    color: #DDDDDD;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-cont p{
+    font-size: 18px;
+    color: #F7CCAC;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 15px 35px;
+    margin: 18px 0 0 0;
+    background-color: #35858B;
+    color: #000000;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+.btn-1:hover{
+    background-color: #4FBDBA;
+}
+
+.equipo{
+    padding: 65px 0;
+    background-color: #e2ddce;
+    position: relative;
+}
+
+.equipo-cont{
+    text-align: center;
+}
+
+.equipo-cont h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p{
+    font-size: 18px;
+    color: #252525;
+    padding: 0 250px;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+
+.equipo-grupo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.equipo-1{
+    padding: 0 25px;
+}
+
+.equipo-1 img{
+    width: 200px;
+    border-radius: 15px;
+}
+
+.equipo-1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.txt-negrilla{
+    color: #2E4750;
+}
+
+.txt-p-equipo{
+    color: #000000;
+    font-size: 15px;
+}
+
+.servicio{
+    background-image: linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),url(imagenes/logo-icon/clinic.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.servicio-cont{
+    text-align: center;
+}
+
+.servicio-cont h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.servicio-cont p{
+    font-size: 18px;
+    color: #D3D6DB;
+    margin-bottom: 50px;
+    padding: 0 100px;
+    line-height: 25px;
+}
+
+.servicio-grupo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.servicio-1{
+    padding: 0 20px;
+}
+
+.servicio-1 img{
+    width: 260px;
+    margin-bottom: 15px;
+}
+
+.servicio-1 h3{
+    color: #eaccb3;
+    font-size: 20px;
+}
+
+.general{
+    display: flex;
+}
+
+.general-1{
+    width: 50%;
+    padding: 40px;
+    background-color: #e1e2e6;
+}
+
+.general-2{
+    background-image: url(imagenes/logo-icon/imgLim.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3{
+    background-image: url(imagenes/logo-icon/ImgEbuc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-4{
+    background-image: url(imagenes/logo-icon/ImgIlod.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-5{
+    background-image: url(imagenes/logo-icon/ImgIlod.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+    line-height: 25px;
+}
+
+.form{
+    background-image: url(./imagenes/logo-icon/ImgFond-reg.jpg);
+    padding: 40px 0 40px 0;
+    text-align: center;
+}
+
+.form h2{
+    color: #c5c5c5;
+}
+.form-register {
+    width: 500px;
+    background: #331940;
+    padding: 30px;
+    margin: auto;
+    margin-top: 43px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    color: white;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.form-register h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.controls {
+    width: 100%;
+    background: #5E366A;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+
+.form-register #boton{
+    width: 100%;
+    background: #EE0E51;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.form-register #boton:hover{
+    background: #eb6089;
+}
+
+.footer{
+    padding: 30px 20px;
+    background-color: #352F44;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.horario{
+    font-size: 20px;
+    color: #D3D6DB;
+    text-align: center;
+    line-height: 35px;
+}
+.horario h3{
+    font-size: 24px;
+    color: #00ADB5;
+}
+
+.red-social ul a img{
+    width: 35px;
+    text-decoration: none;
+    line-height: 45px;
+    display: inline-block;
+}
+.red-social h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #33e61c;
+}
+/*volver arrinba*/
+.gotopbtn img{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 56px;
+    background-color: rgb(180, 187, 180);
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    opacity: 0.7;
+    border-radius: 24px;
+}
+
+
+
+
